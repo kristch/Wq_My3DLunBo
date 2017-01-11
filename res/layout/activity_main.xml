@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+    <com.xilehang.my3dlunbo.Image3DSwitchView
+        android:id="@+id/image_switch_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp" >
+
+        <com.xilehang.my3dlunbo.Image3DView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/image1" />
+
+        <com.xilehang.my3dlunbo.Image3DView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/image2" />
+
+        <com.xilehang.my3dlunbo.Image3DView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/image3" />
+
+        <com.xilehang.my3dlunbo.Image3DView
+            android:id="@+id/image4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/image4" />
+
+        <com.xilehang.my3dlunbo.Image3DView
+            android:id="@+id/image5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/image5" />
+        <!--
+        <com.xilehang.my3dlunbo.Image3DView  
+            android:id="@+id/image6"  
+            android:layout_width="match_parent"  
+            android:layout_height="match_parent"  
+            android:scaleType="fitXY"  
+            android:src="@drawable/image6" />  
+  
+        <com.xilehang.my3dlunbo.Image3DView  
+            android:id="@+id/image7"  
+            android:layout_width="match_parent"  
+            android:layout_height="match_parent"  
+            android:scaleType="fitXY"  
+            android:src="@drawable/image7" />
+        -->
+
+    </com.xilehang.my3dlunbo.Image3DSwitchView>
+
+    <Button
+        android:id="@+id/qianmiann"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="150dp"
+        android:background="#ff0000"
+        android:text="@string/qian" />
+
+    <Button
+        android:id="@+id/houmiann"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="600dp"
+        android:layout_marginTop="150dp"
+        android:background="#ff0000"
+        android:text="@string/hou" />
+
+</RelativeLayout>
